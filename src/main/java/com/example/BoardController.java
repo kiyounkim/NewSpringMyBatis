@@ -22,7 +22,10 @@ public class BoardController {
         model.addAttribute("list",boardDAO.getBoardList());
         return "list";
     }
-
+    @RequestMapping(value="/board/login", method = RequestMethod.GET)
+    public String login(){
+        return "redirect:/login/logout";
+    }
     @RequestMapping(value="/board/add",method=RequestMethod.GET)
     public String addPost(){
         return "addpostform";
@@ -63,4 +66,5 @@ public class BoardController {
             System.out.println("데이터삭제 성공");
         return "redirect:../list";
     }
+
 }

@@ -44,6 +44,7 @@
     </style>
 </head>
 <body>
+<p><a href="login" action="loginpage">logout</a></p>
 <table id="list">
     <tr>
         <th>Id</th>

@@ -2,6 +2,6 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-<p><a href="board/list">게시판 이동</a></p>
+<p><a href="login/login">게시판 이동</a></p>
 </body>
 </html>
